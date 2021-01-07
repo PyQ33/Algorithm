@@ -18,6 +18,8 @@ print(f" n : {n},\n m :{m} , \n k : {k} ")
 # data = list(map(int, input().split()))
 data = list(map(int, input_line2.split()))
 print(f" data : {data}")
+
+
 data.sort() # let  오름차순 갈수록 커지게
 print(data)
 first = data[n-1] #Larger
